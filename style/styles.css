@@ -1,0 +1,250 @@
+#headline-anim {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  font-size: 4em;
+  -webkit-transform: translate(-20%, 70%);
+          transform: translate(-20%, 70%);
+  z-index: 100;
+  -webkit-animation: fill 0.5s ease forwards 6s;
+          animation: fill 0.5s ease forwards 6s;
+}
+
+#headline-anim path:nth-child(1) {
+  stroke-dasharray: 437.3307800292969px;
+  stroke-dashoffset: 437.3307800292969px;
+  -webkit-animation: line-anim 3s ease forwards;
+          animation: line-anim 3s ease forwards;
+}
+
+#headline-anim path:nth-child(2) {
+  stroke-dasharray: 300.445556640625px;
+  stroke-dashoffset: 300.445556640625px;
+  -webkit-animation: line-anim 3s ease forwards 0.3s;
+          animation: line-anim 3s ease forwards 0.3s;
+}
+
+#headline-anim path:nth-child(3) {
+  stroke-dasharray: 286.72625732421875px;
+  stroke-dashoffset: 286.72625732421875px;
+  -webkit-animation: line-anim 3s ease forwards 0.6s;
+          animation: line-anim 3s ease forwards 0.6s;
+}
+
+#headline-anim path:nth-child(4) {
+  stroke-dasharray: 250.73422241210938px;
+  stroke-dashoffset: 250.73422241210938px;
+  -webkit-animation: line-anim 3s ease forwards 0.9s;
+          animation: line-anim 3s ease forwards 0.9s;
+}
+
+#headline-anim path:nth-child(5) {
+  stroke-dasharray: 433.04962158203125px;
+  stroke-dashoffset: 433.04962158203125px;
+  -webkit-animation: line-anim 3s ease forwards 1.2s;
+          animation: line-anim 3s ease forwards 1.2s;
+}
+
+#headline-anim path:nth-child(6) {
+  stroke-dasharray: 354.1455993652344px;
+  stroke-dashoffset: 354.1455993652344px;
+  -webkit-animation: line-anim 3s ease forwards 1.5s;
+          animation: line-anim 3s ease forwards 1.5s;
+}
+
+#headline-anim path:nth-child(7) {
+  stroke-dasharray: 211.7276153564453px;
+  stroke-dashoffset: 211.7276153564453px;
+  -webkit-animation: line-anim 3s ease forwards 1.8s;
+          animation: line-anim 3s ease forwards 1.8s;
+}
+
+#headline-anim path:nth-child(8) {
+  stroke-dasharray: 323.7269592285156px;
+  stroke-dashoffset: 323.7269592285156px;
+  -webkit-animation: line-anim 3s ease forwards 2.1s;
+          animation: line-anim 3s ease forwards 2.1s;
+}
+
+#headline-anim path:nth-child(9) {
+  stroke-dasharray: 427.16790771484375px;
+  stroke-dashoffset: 427.16790771484375px;
+  -webkit-animation: line-anim 3s ease forwards 2.4s;
+          animation: line-anim 3s ease forwards 2.4s;
+}
+
+#headline-anim path:nth-child(10) {
+  stroke-dasharray: 323.727294921875px;
+  stroke-dashoffset: 323.727294921875px;
+  -webkit-animation: line-anim 3s ease forwards 2.7s;
+          animation: line-anim 3s ease forwards 2.7s;
+}
+
+#headline-anim path:nth-child(11) {
+  stroke-dasharray: 288.0079040527344px;
+  stroke-dashoffset: 288.0079040527344px;
+  -webkit-animation: line-anim 3s ease forwards 3s;
+          animation: line-anim 3s ease forwards 3s;
+}
+
+#headline-anim path:nth-child(12) {
+  stroke-dasharray: 323.7273254394531px;
+  stroke-dashoffset: 323.7273254394531px;
+  -webkit-animation: line-anim 3s ease forwards 3.3s;
+          animation: line-anim 3s ease forwards 3.3s;
+}
+
+#headline-anim path:nth-child(13) {
+  stroke-dasharray: 224.39202880859375px;
+  stroke-dashoffset: 224.39202880859375px;
+  -webkit-animation: line-anim 3s ease forwards 3.6s;
+          animation: line-anim 3s ease forwards 3.6s;
+}
+
+#headline-anim path:nth-child(14) {
+  stroke-dasharray: 300.44329833984375px;
+  stroke-dashoffset: 300.44329833984375px;
+  -webkit-animation: line-anim 3s ease forwards 3.9s;
+          animation: line-anim 3s ease forwards 3.9s;
+}
+
+#headline-anim path:nth-child(15) {
+  stroke-dasharray: 386.8771667480469px;
+  stroke-dashoffset: 386.8771667480469px;
+  -webkit-animation: line-anim 3s ease forwards 4.2s;
+          animation: line-anim 3s ease forwards 4.2s;
+}
+
+#headline-anim path:nth-child(16) {
+  stroke-dasharray: 323.7278747558594px;
+  stroke-dashoffset: 323.7278747558594px;
+  -webkit-animation: line-anim 3s ease forwards 4.5s;
+          animation: line-anim 3s ease forwards 4.5s;
+}
+
+#headline-anim path:nth-child(17) {
+  stroke-dasharray: 211.72775268554688px;
+  stroke-dashoffset: 211.72775268554688px;
+  -webkit-animation: line-anim 3s ease forwards 4.8s;
+          animation: line-anim 3s ease forwards 4.8s;
+}
+
+@-webkit-keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: valera;
+  color: white;
+}
+
+@font-face {
+  font-family: valera;
+  src: url(VarelaRound-Regular.ttf);
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: -webkit-gradient(linear, right top, left top, from(#4ca3dd), to(#b7daf1));
+  background: linear-gradient(to left, #4ca3dd, #b7daf1);
+  z-index: -1;
+}
+
+nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10% 1fr 1fr 10%;
+      grid-template-columns: 10% 1fr 1fr 10%;
+  min-height: 10vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#logo {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  font-size: 2em;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+  z-index: 4;
+}
+
+.hamburger {
+  visibility: hidden;
+}
+/*# sourceMappingURL=styles.css.map */

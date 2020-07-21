@@ -1,0 +1,60 @@
+@import "_animation.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: valera;
+  color: white;
+}
+
+@font-face {
+  font-family: valera;
+  src: url(VarelaRound-Regular.ttf);
+}
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to left, #4ca3dd, #b7daf1);
+  z-index: -1;
+}
+nav {
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr 10%;
+  min-height: 10vh;
+  align-items: center;
+}
+#logo {
+  grid-column: 2/3;
+  font-size: 2em;
+}
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+section {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+.hero {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  z-index: 4;
+}
+.hamburger {
+  visibility: hidden;
+}
